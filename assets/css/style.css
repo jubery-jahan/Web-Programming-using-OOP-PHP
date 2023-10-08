@@ -1,0 +1,99 @@
+.theme-background-bg{ background-color: #FF4800; }
+.theme-text-bg{ color: #FF4800; }
+.main-menu li a:hover
+{
+    background-color: #FF4800;
+    color: white;
+}
+.main-menu .dropdown-li:hover ul
+{
+    display: block;
+}
+.banner-section
+{
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.banner-card-margin
+{
+    margin-top: 120px;
+}
+.banner-btn:hover
+{
+    background-color: #FF4800;
+    color: white;
+}
+.py-100 {padding-top: 100px; padding-bottom: 80px}
+
+
+.team-card
+{
+    border-bottom: 3px solid #FF4800;
+}
+.team-name-body
+{
+    display: block;
+}
+.team-social-body
+{
+    display: none;
+}
+.team-card:hover .team-social-body
+{
+    display:block;
+
+}
+.team-card:hover .team-name-body
+{
+    display:none;
+}
+
+.icon-css
+{
+    position: relative;
+    float: left;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 100%;
+    transition: 1s;
+}
+
+.icon-css i
+{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+.icon-css:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.icon-css:hover i
+{
+    color: black!important;
+}
+.btn-head
+{
+    background-color: #1B9CE3;
+}
+
+
+
+
+
+
+
+
+
+/*.main-menu .dropdown-li:hover ul li a*/
+/*{*/
+/*    backgorund-color: floralwhite;*/
+/*}*/
